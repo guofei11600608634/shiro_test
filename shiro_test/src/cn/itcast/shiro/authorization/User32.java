@@ -10,7 +10,7 @@ public interface TestInteface extends StdCallLibrary{
 	     int ZT_REC_OpenDevice(String pstrCom, int nHandle, int nFage); 
 	     //关闭设备
 	     int ZT_REC_CloseDevice(int nHandle);
-	     //打印接口
+	     //打印接口	
 	     int ZT_REC_PrintLine(int nHandle,String print_data,String style); 
 	     
     }
